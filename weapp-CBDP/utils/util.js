@@ -1,3 +1,4 @@
+//provider  此页面负责数据中转
 function formatTime(date) {
   var year = date.getFullYear()
   var month = date.getMonth() + 1
@@ -16,15 +17,18 @@ function formatNumber(n) {
   return n[1] ? n : '0' + n
 }
 
+//moduel
 module.exports = {
   formatTime: formatTime
 };
+
 
 var index = require('../data/data_index.js')
 var index_next = require('../data/data_index_next.js')
 var discovery = require('../data/data_discovery.js')
 var discovery_next = require('../data/data_discovery_next.js')
 
+/* 返回数据 */
 function getData(url){
   return new Promise(function(resolve, reject){
     wx.request({

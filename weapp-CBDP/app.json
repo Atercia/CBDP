@@ -6,7 +6,11 @@
     "pages/chat/chat",
     "pages/more/more",
     "pages/answer/answer",
-    "pages/question/question"
+    "pages/question/question",
+    "pages/new/test/test",
+    "pages/new/addquestion/addquestion",
+    "pages/new/thechat/thechat",
+    "pages/information/information"
   ],
   "window":{
     "backgroundTextStyle":"light",

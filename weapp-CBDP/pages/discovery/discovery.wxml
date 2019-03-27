@@ -53,7 +53,7 @@
     </block>
   </view>
   <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
-    <text>分类</text>
+    <text>推荐</text>
   </view>
   <view class="ctnt2 placehold" hidden="{{currentNavtab==2 ? '' : true}}">
     <text>历史</text>

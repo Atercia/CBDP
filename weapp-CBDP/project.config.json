@@ -5,12 +5,13 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wx6dc05573ee18f3a5",
-	"projectname": "CBDP-%E5%8C%BB%E6%82%A3%E4%BA%A4%E6%B5%81",
+	"projectname": "CBDP-weapp",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
